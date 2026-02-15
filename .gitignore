@@ -1,0 +1,33 @@
+# Create .gitignore file
+echo "# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+*.egg-info/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and databases
+*.log
+*.db
+*.sqlite
+
+# Project specific (if any)
+temp_*
+test_output.txt" > .gitignore
